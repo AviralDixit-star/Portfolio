@@ -1,0 +1,73 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box; 
+    background: darkgray;
+}
+
+
+main{
+    width: 85%; 
+   
+    margin: 50px auto;
+    border: 1px solid grey;
+    display: grid;
+    color: white;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3, 1fr) 200px;
+    grid-gap: 20px;
+    
+}
+h1{
+    display: grid;
+    font-size: 30px;
+    background-color: #ffa502;
+}
+
+.div1{ background-color: #ff4757; 
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 50px;
+}
+.div2{ background-color: #2ed573;
+font-size: 20px; }
+.div3{ background-color: #1e90ff; 
+    font-size: 20px;
+    text-align: center;
+}
+.div4{ background-color: #5352ed; 
+    text-align: center;
+    font-size: 20px;
+}
+.div5{ background-color: #322f42;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    font-size: 25px;
+    text-align: center;
+}
+.div6{ background-color: #ffa502; 
+    grid-column: 1/span 3;
+    box-sizing:border-box;
+}
+.div7{ background-color: #00d2d3;
+    grid-column: 1/-1;
+}
+
+
+.container {
+    width: 90%; 
+    background-color: #ddd; /* Grey background */
+  }
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 0px; /* Add top padding */
+    padding-bottom: 0px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  .html {width: 90%; background-color: #4CAF50;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .js {width: 65%; background-color: #f44336;} /* Red */
+  .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+
+
+  
